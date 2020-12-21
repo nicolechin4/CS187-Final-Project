@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Copperplate;
+  margin: 0;
+}
+
+.header {
+  padding: 20px;
+  text-align: center;
+  background: #008B8B;
+  color: white;
+}
+
+.header h1 {
+  font-size: 55px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #708090;
+}
+
+.navbar a {
+  float: center;
+  font-size: 20px;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 10px 12px;
+}
+
+a {
+  color: white;
+}
+a:visited {
+  color: white;
+}
+a:hover, a:active, a:focus {
+  color: black;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+.main {
+  -ms-flex: 70%; /* IE10 */
+  flex: 75%;
+  background-color: white;
+  padding: 30px;
+}
+
+.side {
+    -ms-flex: 30%; /* IE10 */
+  flex: 15%;
+  background-color: #778899;
+  padding: 20px;
+}
+
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #008B8B;
+}
